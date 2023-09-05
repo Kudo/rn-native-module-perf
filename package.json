@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "rn-native-module-perf",
+  "version": "0.0.1",
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/@react-native/**",
+      "**/@react-native-community/**",
+      "**/react-native",
+      "**/react-native/**",
+      "**/metro-react-native-babel-preset",
+      "**/metro-react-native-babel-preset/**"
+    ]
+  }
+}
